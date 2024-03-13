@@ -13,7 +13,7 @@ public class ScrollDemo extends BaseTest{
     public void ScrollDemoTest() throws InterruptedException {
         driver.findElement(new AppiumBy.ByAccessibilityId("Views")).click();
         // where to scroll known prior
-       // driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+        //driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
         //where to scroll No prior idea
         ScrollTillEndAction();
 
